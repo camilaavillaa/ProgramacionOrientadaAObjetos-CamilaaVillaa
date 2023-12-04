@@ -64,6 +64,7 @@ public class CLI {
             System.out.println( LenguajeFactory.getMensaje("human"));
             System.out.println( LenguajeFactory.getMensaje("AI"));
             System.out.println(LenguajeFactory.getMensaje("option"));
+
             int gameModeChoice = scanner.nextInt();
 
             Player player1, player2;
