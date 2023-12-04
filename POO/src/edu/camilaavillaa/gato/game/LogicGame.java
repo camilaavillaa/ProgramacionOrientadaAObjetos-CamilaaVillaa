@@ -1,6 +1,6 @@
-package edu.camilaavillaa.retofinal.game;
+package edu.camilaavillaa.gato.game;
 
-import edu.camilaavillaa.retofinal.ui.Idioma.LenguajeFactory;
+import edu.camilaavillaa.gato.ui.Idioma.LenguajeFactory;
 
 import java.util.Scanner;
 

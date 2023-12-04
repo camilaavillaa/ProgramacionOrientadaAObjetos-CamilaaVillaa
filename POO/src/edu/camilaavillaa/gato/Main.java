@@ -1,6 +1,6 @@
-package edu.camilaavillaa.retofinal;
+package edu.camilaavillaa.gato;
 
-import edu.camilaavillaa.retofinal.ui.CLI;
+import edu.camilaavillaa.gato.ui.CLI;
 /**
  * La clase `Main` contiene el método principal (main) que inicia la aplicación del juego.
  */

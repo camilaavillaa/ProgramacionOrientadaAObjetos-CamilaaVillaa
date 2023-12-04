@@ -1,4 +1,4 @@
-package edu.camilaavillaa.retofinal.ui.Idioma;
+package edu.camilaavillaa.gato.ui.Idioma;
 /**
  * La clase `LenguajeFactory` proporciona métodos para configurar y obtener mensajes internacionalizados
  * en el idioma seleccionado.

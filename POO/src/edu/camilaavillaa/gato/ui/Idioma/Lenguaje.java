@@ -1,4 +1,4 @@
-package edu.camilaavillaa.retofinal.ui.Idioma;
+package edu.camilaavillaa.gato.ui.Idioma;
 /**
  * La interfaz `Lenguaje` define el contrato para las clases que proporcionan mensajes internacionalizados.
  */

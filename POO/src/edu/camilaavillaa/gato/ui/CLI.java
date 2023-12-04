@@ -1,7 +1,7 @@
-package edu.camilaavillaa.retofinal.ui;
+package edu.camilaavillaa.gato.ui;
 
-import edu.camilaavillaa.retofinal.game.*;
-import edu.camilaavillaa.retofinal.ui.Idioma.LenguajeFactory;
+import edu.camilaavillaa.gato.game.*;
+import edu.camilaavillaa.gato.ui.Idioma.LenguajeFactory;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

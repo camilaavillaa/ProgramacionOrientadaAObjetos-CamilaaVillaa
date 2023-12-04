@@ -1,4 +1,4 @@
-package edu.camilaavillaa.retofinal.game;
+package edu.camilaavillaa.gato.game;
 
 /**
  * La clase Player representa un jugador en el juego.

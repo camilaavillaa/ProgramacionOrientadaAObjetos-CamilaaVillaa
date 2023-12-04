@@ -1,4 +1,4 @@
-package edu.camilaavillaa.retofinal.game;
+package edu.camilaavillaa.gato.game;
 
 import java.util.Random;
 

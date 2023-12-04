@@ -1,4 +1,4 @@
-package edu.camilaavillaa.retofinal.ui.Idioma;
+package edu.camilaavillaa.gato.ui.Idioma;
 /**
  * La clase `Español` implementa la interfaz `Lenguaje` y proporciona mensajes internacionalizados en español.
  */
