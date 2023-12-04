@@ -38,11 +38,13 @@ public class CLI {
         while (true) {
             while (true) {
                 try {
+                    /** Selección del modo de juego */
                     System.out.println(LenguajeFactory.getMensaje("board_size"));
                     System.out.println("1. 3x3");
                     System.out.println("2. 4x4");
                     System.out.println(LenguajeFactory.getMensaje("option"));
 
+                    /** Configuración de jugadores según el modo de juego */
                     boardSize = scanner.nextInt();
                     if (boardSize == 1 || boardSize == 2) {
                         break;
@@ -54,6 +56,8 @@ public class CLI {
                     scanner.next();
                 }
             }
+
+            /** Inicialización del juego y ejecución*/
             if (boardSize == 1) {
                 boardSizeChoize= 3;
             } else {
@@ -89,11 +93,11 @@ public class CLI {
             Board board = new Board(boardSizeChoize);
             LogicGame game = new LogicGame(player1, player2, board);
             game.play();
-
+/** Actualización y visualización de puntajes y rankings*/
             scoreManager.updateScores(player1, player2);
             scoreManager.saveScoresToFile();
             scoreManager.displayRankings();
-
+/** Pregunta si desea jugar nuevamente*/
             System.out.println("Scores:");
             scoreManager.displayScores();
 
